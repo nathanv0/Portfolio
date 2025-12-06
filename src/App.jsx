@@ -5,18 +5,14 @@ import FeatureCards from "./sections/FeatureCards.jsx";
 import ExperienceSection from "./sections/ExperienceSection.jsx";
 import TechStack from "./sections/TechStack.jsx";
 import Footer from "./sections/Footer.jsx";
-import Header from "./sections/Header.jsx";
 import Contact from "./sections/Contact.jsx";
 
 const App = () => {
     return (
         <>
             <NavBar />
-
             <Hero />
-            {/*<Header />*/}
             <ShowcaseSection />
-            {/*<LogoSection />*/}
             <FeatureCards />
             <ExperienceSection />
             <TechStack />
